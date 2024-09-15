@@ -1,19 +1,14 @@
-﻿"""!
-- `__version__`: This variable holds the version of the module or package.
-- `__name__`: Contains the name of the module. If the script is being run directly, the value will be `"__main__"`.
-- `__doc__`: The module's documentation string.
-- `__details__`: This variable likely contains additional details about the module, but the exact purpose depends on the specific module or package.
-- `__annotations__`: Contains type annotations for variables and functions in the module.
-- `__author__`: The name(s) of the author(s) of the module.
+﻿__version__: str = '0.1'
+__doc__: str = ''
+__details__: str = ''
+__author__: str = 'hypo69'
+__copyright__: str = """
+## License
+
+Copyright (c) 2024 hypo69
+
+This project is licensed under the MIT License. See the [MIT License](https://opensource.org/licenses/MIT) for details.
+
+Commercial use of the code is prohibited without prior permission from the authors.
 """
-## \file ../src/ai/version.py
-# -*- coding: utf-8 -*-
-#! /usr/share/projects/hypotez/venv/scripts python
-__name__ = ''
-__version__="3.12.0.0.0.4"
-__doc__="Google interface"
-__details__ = ''
-__annotations__ = ''
-
-__author__='hypotez '
-
+__cofee__: str = "Treat the developer to a cup of coffee for boosting enthusiasm in development: https://buymeacoffee.com/onelastbit0"
